@@ -34,6 +34,10 @@
     .btn {
         padding: 15px 25px;
     }
+    .videos {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
 
 }
 
@@ -73,5 +77,13 @@
       }
       .gamer-content {
         text-align: center;
+      }
+      .videos {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .video img {
+        margin: auto;
+        width: 80%;
       }
 }
