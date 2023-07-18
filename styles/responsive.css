@@ -1,7 +1,8 @@
 @media screen and (max-width:576px) {
     nav,
     .menu-container ul,
-    .gamer-main {
+    .gamer-main,
+    .play-section {
         flex-direction: column;
         gap: 20px;
     }
@@ -38,13 +39,40 @@
         grid-template-columns: 1fr;
         gap: 30px;
       }
+      .play-content {
+        width: 100%;
+        padding: 20px 20px;
+        margin-right: 0px;
+      }
+      .play-content h3,
+      .play-content p{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+      }
+      .play-img {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+      }
+      .play-section {
+        padding: 0px 0px;
+      }
+      .girl img{
+        width: 130px;
+      }
+      .girl {
+      bottom: 130px;
+      right: 90px;
+      }
 
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
     nav,
     .menu-container ul,
-    .gamer-main {
+    .gamer-main,
+    .play-section {
         flex-direction: column;
         gap: 20px;
     }
@@ -85,5 +113,23 @@
       .video img {
         margin: auto;
         width: 80%;
+      }
+      .play-content {
+        width: 100%;
+        padding: 20px 20px;
+        margin-right: 0px;
+      }
+      .play-content h3{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+      }
+      .play-img {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+      }
+      .play-section {
+        padding: 0px 0px;
       }
 }

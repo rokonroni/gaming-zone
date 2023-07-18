@@ -250,3 +250,48 @@ font-weight: 500;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/* Play Section styles */
+.play-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin:auto;
+  padding: 50px 0;
+}
+.play-content {
+  margin-right: 100px;
+  width: 50%;
+}
+.play-content h3{
+font-size: 3rem;
+font-weight: 700;
+text-align: right;
+}
+.play-content p {
+  color: #534C64;
+text-align: right;
+font-size: 1.2rem;
+font-weight: 400;
+margin-top: 30px;
+}
+.play-img {
+  width: 50%;
+  height: 80vh;
+}
+.play-img > img {
+  width: 90%;
+}
+.girl {
+      border-radius: 8px;
+      color: #FFF;
+      width: 300px;
+      padding: 8px;
+      text-align: center;
+      position: relative;
+      bottom: 200px;
+      right: 90px;
+}
+.girl img {
+  width: 200px;
+}
