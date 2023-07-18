@@ -1,6 +1,7 @@
 @media screen and (max-width:576px) {
     nav,
-    .menu-container ul {
+    .menu-container ul,
+    .gamer-main {
         flex-direction: column;
         gap: 20px;
     }
@@ -20,13 +21,26 @@
     .banner-content {
         background-image: url(../images/banner2.png);
         background-size: 100% ;
-        padding: 20px;
+        padding: 
+        20px;
     }
+    .gamer-content,
+    .gamer-img {
+        width: 100%;
+    }
+    .gamer-content {
+        text-align: center;
+    }
+    .btn {
+        padding: 15px 25px;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
     nav,
-    .menu-container ul {
+    .menu-container ul,
+    .gamer-main {
         flex-direction: column;
         gap: 20px;
     }
@@ -53,4 +67,11 @@
         padding: 20px;
         width: 80%;
     }
+    .gamer-content,
+    .gamer-img {
+        width: 100%;
+      }
+      .gamer-content {
+        text-align: center;
+      }
 }

@@ -47,7 +47,6 @@ nav {
   padding: 20px;
   width: 80%;
   margin: 0px auto;
-  b
 }
 .logo-container {
   display: flex;
@@ -92,6 +91,12 @@ nav {
 .follow-btn img {
   width: 25px;
 }
+.text-bg {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 /* Banner Section Styles */
 .banner-section {
   background-image: url(../images/banner2.png);
@@ -134,4 +139,47 @@ nav {
 .banner-img img {
   width: 80%;
   height: 80%;
+}
+/* Gamer Section Styles */
+.gamer-section {
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0px;
+}
+.gamer-content {
+  width: 50%;
+  margin-left: 20px;
+}
+.gamer-content h3 {
+font-size: 3rem;
+font-weight: 700;
+margin: 20px 0px;
+}
+.gamer-content p {
+  color: #534C64;
+font-size: 1.2rem;
+font-weight: 400;
+}
+.gamer-content h6 {
+  color: #534C64;
+font-size: 1.2rem;
+font-weight: 500;
+margin: 10px 0px;
+}
+.gamer-content h5 {
+  color: #534C64;
+font-size: 1.7rem;
+font-weight: 700;
+}
+.gamer-img {
+  width: 70%;
+}
+.gamer-img img {
+  width: 100%;
 }
