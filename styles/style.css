@@ -1,0 +1,137 @@
+/* Shared Styles */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #3c354f;
+}
+.btn {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  border: 1px solid #ff42a5;
+  background-color: #ff42a5;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: transparent;
+  color:  #ff42a5;
+}
+.btn-blue {
+  background-color: #4EC5F7;
+  border: 1px solid #4EC5F7;
+}
+.btn-blue:hover {
+  color: #4EC5F7;
+}
+/* Header styles */
+header {
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  margin: 0px auto;
+  b
+}
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+
+.logo-container img {
+  width: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.logo-container h3 {
+  font-size: 2rem;
+}
+.logo-container span {
+  color: #ff42a5;
+}
+.menu-container ul {
+  display: flex;
+  align-items: center;
+}
+.menu-container ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+.menu-container a,
+.menu-container .follow-btn {
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.follow-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: none;
+}
+.follow-btn img {
+  width: 25px;
+}
+/* Banner Section Styles */
+.banner-section {
+  background-image: url(../images/banner2.png);
+  background-size: cover;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+.banner-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0px auto;
+}
+.banner-section h3 {
+  color: #3c354f;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.banner-section h1 {
+  font-size: 5rem;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: -10px;
+}
+.banner-content p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.banner-content i {
+  margin-right: 10px;
+}
+.banner-img {
+  text-align: right;
+}
+.banner-img img {
+  width: 80%;
+  height: 80%;
+}
