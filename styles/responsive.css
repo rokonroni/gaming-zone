@@ -65,6 +65,22 @@
       bottom: 130px;
       right: 90px;
       }
+      .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .social-icons {
+        flex-direction: column;
+        text-align: center;
+      }
+      footer {
+        padding:20px 20px;
+      }
+      .copy {
+        width: 70%;
+        text-align: center;
+        margin: 20px auto;
+    }
 
 }
 
@@ -132,4 +148,21 @@
       .play-section {
         padding: 0px 0px;
       }
+      .footer-menu {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        width: 50%;
+      }
+      .social-icons {
+        flex-direction: column;
+        text-align: center;
+      }
+      footer {
+        padding:20px 20px;
+      }
+      .copy {
+        width: 70%;
+        text-align: center;
+        margin: 20px auto;
+    }
 }
