@@ -27,14 +27,14 @@ a {
 }
 .btn:hover {
   background-color: transparent;
-  color:  #ff42a5;
+  color: #ff42a5;
 }
 .btn-blue {
-  background-color: #4EC5F7;
-  border: 1px solid #4EC5F7;
+  background-color: #4ec5f7;
+  border: 1px solid #4ec5f7;
 }
 .btn-blue:hover {
-  color: #4EC5F7;
+  color: #4ec5f7;
 }
 /* Header styles */
 header {
@@ -92,10 +92,10 @@ nav {
   width: 25px;
 }
 .text-bg {
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* Banner Section Styles */
 .banner-section {
@@ -142,7 +142,11 @@ background-clip: text;
 }
 /* Gamer Section Styles */
 .gamer-section {
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
 }
 .gamer-main {
   display: flex;
@@ -157,25 +161,25 @@ background-clip: text;
   margin-left: 20px;
 }
 .gamer-content h3 {
-font-size: 3rem;
-font-weight: 700;
-margin: 20px 0px;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 20px 0px;
 }
 .gamer-content p {
-  color: #534C64;
-font-size: 1.2rem;
-font-weight: 400;
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 .gamer-content h6 {
-  color: #534C64;
-font-size: 1.2rem;
-font-weight: 500;
-margin: 10px 0px;
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 10px 0px;
 }
 .gamer-content h5 {
-  color: #534C64;
-font-size: 1.7rem;
-font-weight: 700;
+  color: #534c64;
+  font-size: 1.7rem;
+  font-weight: 700;
 }
 .gamer-img {
   width: 70%;
@@ -191,16 +195,16 @@ font-weight: 700;
   margin: auto;
 }
 .video-section h3 {
-  color: #0B0223;
-font-size: 3rem;
-font-weight: 700;
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
 }
 .video-section > p {
-  color: #534C64;
-font-size: 1.2rem;
-font-weight: 400;
-margin-top: 10px;
-margin-bottom: 20px;
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .videos {
   display: grid;
@@ -212,9 +216,9 @@ margin-bottom: 20px;
   display: block;
 }
 .videos > p {
-  color: #534C64;
-font-size: 1.2rem;
-font-weight: 500;
+  color: #534c64;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 .video p {
   margin-top: 20px;
@@ -231,12 +235,12 @@ font-weight: 500;
   height: 84%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #000;
   border-radius: 10px;
 }
 .video:hover .overlay {
-  opacity: .8;
+  opacity: 0.8;
   border-radius: 10px;
 }
 .effect {
@@ -249,4 +253,146 @@ font-weight: 500;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+/* Play Section styles */
+.play-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 50px 0;
+}
+.play-content {
+  margin-right: 100px;
+  width: 50%;
+}
+.play-content h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: right;
+}
+.play-content p {
+  color: #534c64;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.play-img {
+  width: 50%;
+  height: 80vh;
+}
+.play-img > img {
+  width: 90%;
+}
+.girl {
+  border-radius: 8px;
+  color: #fff;
+  width: 300px;
+  padding: 8px;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  right: 90px;
+}
+.girl img {
+  width: 200px;
+}
+/* CTA Section Styles */
+.cta-section {
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.cta-main {
+  width: 90%;
+  margin: 0px auto;
+  padding: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  
+}
+.item h3 {
+  color:red;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  flex-basis: calc(20% - 1rem);
+  padding: 10px 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  gap: 10px;
+  background-color: #ffffff;
+  color: #0B0223;
+font-size: 16px;
+font-weight: 600;
+}
+.item:hover {
+  border:1px solid #ff42a5;
+  color: #ff42a5;
+}
+.item h3 {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Footer Section Styles */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #0b0223;
+}
+.footer-logo {
+  width: max-content;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-menu {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 70%;
+}
+.footer-menu ul {
+  display: flex;
+}
+.footer-menu a {
+  color: white;
+}
+.footer-menu ul li {
+  margin-right: 50px;
+}
+.footer-menu a:hover {
+  color: #ff42a5;
+}
+.social-icons {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.left-icons,
+.right-icons {
+  display: flex;
+  gap: 30px;
+}
+.terms-conatiner {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+.terms-conatiner li a:hover {
+  color: #ffffff;
+}
+.copy {
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
 }
