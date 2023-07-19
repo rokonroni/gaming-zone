@@ -1,168 +1,166 @@
-@media screen and (max-width:576px) {
-    nav,
-    .menu-container ul,
-    .gamer-main,
-    .play-section {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .banner-main {
-        flex-direction:column-reverse;
-        gap: 20px;
-    }
-    header {
-        box-shadow: none;
-    }
-    .banner-section {
-        background:#fff;
-    }
-    .banner-img {
-        text-align: center;
-    }
-    .banner-content {
-        background-image: url(../images/banner2.png);
-        background-size: 100% ;
-        padding: 
-        20px;
-    }
-    .gamer-content,
-    .gamer-img {
-        width: 100%;
-    }
-    .gamer-content {
-        text-align: center;
-    }
-    .btn {
-        padding: 15px 25px;
-    }
-    .videos {
-        grid-template-columns: 1fr;
-        gap: 30px;
-      }
-      .play-content {
-        width: 100%;
-        padding: 20px 20px;
-        margin-right: 0px;
-      }
-      .play-content h3,
-      .play-content p{
-        width: 90%;
-        margin: auto;
-        text-align: center;
-      }
-      .play-img {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-      }
-      .play-section {
-        padding: 0px 0px;
-      }
-      .girl img{
-        width: 130px;
-      }
-      .girl {
-      bottom: 130px;
-      right: 90px;
-      }
-      .footer-menu {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-      }
-      .social-icons {
-        flex-direction: column;
-        text-align: center;
-      }
-      footer {
-        padding:20px 20px;
-      }
-      .copy {
-        width: 70%;
-        text-align: center;
-        margin: 20px auto;
-    }
-
+@media screen and (max-width: 576px) {
+  nav,
+  .menu-container ul,
+  .gamer-main,
+  .play-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .banner-main {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  header {
+    box-shadow: none;
+  }
+  .banner-section {
+    background: #fff;
+  }
+  .banner-img {
+    text-align: center;
+  }
+  .banner-content {
+    background-image: url(../images/banner2.png);
+    background-size: 100%;
+    padding: 20px;
+  }
+  .gamer-content,
+  .gamer-img {
+    width: 100%;
+  }
+  .gamer-content {
+    text-align: center;
+  }
+  .btn {
+    padding: 15px 25px;
+  }
+  .videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .play-content {
+    width: 100%;
+    padding: 20px 20px;
+    margin-right: 0px;
+  }
+  .play-content h3,
+  .play-content p {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .play-img {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .play-section {
+    padding: 0px 0px;
+  }
+  .girl img {
+    width: 130px;
+  }
+  .girl {
+    bottom: 130px;
+    right: 90px;
+  }
+  .footer-menu {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .social-icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer {
+    padding: 20px 20px;
+  }
+  .copy {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+  }
 }
 
-@media screen and (min-width:576px) and (max-width:960px) {
-    nav,
-    .menu-container ul,
-    .gamer-main,
-    .play-section {
-        flex-direction: column;
-        gap: 20px;
-    }
-    .logo-container {
-        width: max-content;
-    }
-    .banner-main {
-        flex-direction:column-reverse;
-        gap: 20px;
-        width: 100%;
-    }
-    header {
-        box-shadow: none;
-    }
-    .banner-section {
-        background:#fff;
-    }
-    .banner-img {
-        text-align: center;
-    }
-    .banner-content {
-        background-image: url(../images/banner2.png);
-        background-size: 100% ;
-        padding: 20px;
-        width: 80%;
-    }
-    .gamer-content,
-    .gamer-img {
-        width: 100%;
-      }
-      .gamer-content {
-        text-align: center;
-      }
-      .videos {
-        grid-template-columns: 1fr;
-        gap: 30px;
-      }
-      .video img {
-        margin: auto;
-        width: 80%;
-      }
-      .play-content {
-        width: 100%;
-        padding: 20px 20px;
-        margin-right: 0px;
-      }
-      .play-content h3{
-        width: 90%;
-        margin: auto;
-        text-align: center;
-      }
-      .play-img {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-      }
-      .play-section {
-        padding: 0px 0px;
-      }
-      .footer-menu {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-        width: 50%;
-      }
-      .social-icons {
-        flex-direction: column;
-        text-align: center;
-      }
-      footer {
-        padding:20px 20px;
-      }
-      .copy {
-        width: 70%;
-        text-align: center;
-        margin: 20px auto;
-    }
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav,
+  .menu-container ul,
+  .gamer-main,
+  .play-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logo-container {
+    width: max-content;
+  }
+  .banner-main {
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+  header {
+    box-shadow: none;
+  }
+  .banner-section {
+    background: #fff;
+  }
+  .banner-img {
+    text-align: center;
+  }
+  .banner-content {
+    background-image: url(../images/banner2.png);
+    background-size: 100%;
+    padding: 20px;
+    width: 80%;
+  }
+  .gamer-content,
+  .gamer-img {
+    width: 100%;
+  }
+  .gamer-content {
+    text-align: center;
+  }
+  .videos {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .video img {
+    margin: auto;
+    width: 80%;
+  }
+  .play-content {
+    width: 100%;
+    padding: 20px 20px;
+    margin-right: 0px;
+  }
+  .play-content h3 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .play-img {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .play-section {
+    padding: 0px 0px;
+  }
+  .footer-menu {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 50%;
+  }
+  .social-icons {
+    flex-direction: column;
+    text-align: center;
+  }
+  footer {
+    padding: 20px 20px;
+  }
+  .copy {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+  }
 }
