@@ -51,6 +51,7 @@
   }
   .play-img {
     width: 90%;
+    height: 360px;
     margin: auto;
     text-align: center;
   }
@@ -63,6 +64,11 @@
   .girl {
     bottom: 130px;
     right: 90px;
+  }
+  .cta-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   .footer-menu {
     grid-template-columns: repeat(3, 1fr);
@@ -140,6 +146,7 @@
   }
   .play-img {
     width: 90%;
+    height: 580px;
     margin: auto;
     text-align: center;
   }
