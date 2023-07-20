@@ -134,9 +134,9 @@
     left: 58px;
     height: 93%;
     width: 80%;
-}
+  }
   .videos {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
   .video img {
