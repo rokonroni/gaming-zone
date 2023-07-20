@@ -31,6 +31,9 @@
   .gamer-content {
     text-align: center;
   }
+  .overlay {
+    height: 87%;
+  }
   .btn {
     padding: 15px 25px;
   }
@@ -51,12 +54,13 @@
   }
   .play-img {
     width: 90%;
-    height: 360px;
+    height: 400px;
     margin: auto;
     text-align: center;
   }
   .play-section {
     padding: 0px 0px;
+    width: 100%;
   }
   .girl img {
     width: 130px;
@@ -126,6 +130,11 @@
   .gamer-content {
     text-align: center;
   }
+  .overlay {
+    left: 58px;
+    height: 93%;
+    width: 80%;
+}
   .videos {
     grid-template-columns: 1fr;
     gap: 30px;
